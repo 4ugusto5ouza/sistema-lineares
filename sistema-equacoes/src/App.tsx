@@ -64,8 +64,6 @@ const App: React.FC = () => {
   }
 
   const handleSubmit = () => {
-    // Aqui você pode chamar sua função `solveGauss` com a matriz como argumento
-    // e fazer o que quiser com a solução
     console.log("Matriz:", matrix);
     const solution = solveGauss(matrix);
     console.log("Solução", solution);
